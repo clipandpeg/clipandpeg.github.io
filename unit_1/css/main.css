@@ -1,17 +1,62 @@
 
-h1 {
-	color: fuchsia;
+h1, h3 {
+	color: #0000FF
+	font-family: Arial, sans-serif;
+	text-decoration: underline;
+	text-transform: uppercase;
+
 }
+
+h3 {
+	font-size: 24px;
+}
+
+#second {
+	font-weight: bold;
+}
+
+#imporant {
+	font-size: 18px;
+}
+
 
 body {
 	background-color: teal;
 	color: purple;
+	text-align: center;
 }
 
 a {
 	background-color: yellow;
+	font-style: italic;
 }
 
-h3, p {
+p {
 	color: purple;
+	font-family: "Courier New", monospace;
+	font=font-weight: normal;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px;
+}
+
+#name {
+	background: white;
+}
+
+#hex {
+	background: #ffffff;
+}
+
+#rgb {
+	background: rgb(255,255,255);
+}
+
+#rgba {
+	background: rgba(255,255,255,.8);
 }

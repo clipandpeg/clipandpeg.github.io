@@ -1,0 +1,51 @@
+
+h1 {
+  text-align: center;
+  font-size: 88px;
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+  background: url("http://redfairyproject.com/wp-content/uploads/2015/11/Believe-in-yourself_daily-inspiration.jpg")
+  background-size: cover;
+  color: #fff;
+  font-family: Helvetica;
+}
+
+hr {
+  width: 200px;
+}
+
+p {
+  font-size: 16px;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px;
+}
+
+#second {
+	font-size: 21
+	font-style: italic;
+}
+
+#name {
+	background: white;
+}
+
+#hex {
+	background: #ffffff;
+}
+
+#rgb {
+	background: rgb(255,255,255);
+}
+
+#rgba {
+	background: rgba(255,255,255,.8);
+}
