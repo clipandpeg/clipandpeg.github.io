@@ -1,13 +1,18 @@
 
 h1 {
   text-align: center;
-  font-size: 88px;
+  font-size: 188px;
   font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 body {
   text-align: center;
-  background: url("http://redfairyproject.com/wp-content/uploads/2015/11/Believe-in-yourself_daily-inspiration.jpg")
+  background-image: url("https://static.pexels.com/photos/19936/breakfast-orange-lemon-oranges.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   color: #fff;
   font-family: Helvetica;
@@ -18,7 +23,7 @@ hr {
 }
 
 p {
-  font-size: 16px;
+  font-size: 27px;
 }
 
 div {
@@ -29,23 +34,25 @@ div {
 	margin: 20px;
 }
 
+
 #second {
 	font-size: 21
 	font-style: italic;
+	color: rgb(167,192,255);
 }
 
-#name {
+/*#name {*/
 	background: white;
 }
 
-#hex {
+/*#hex {*/
 	background: #ffffff;
 }
 
-#rgb {
+/*#rgb {*/
 	background: rgb(255,255,255);
 }
 
-#rgba {
+/*#rgba {*/
 	background: rgba(255,255,255,.8);
 }
