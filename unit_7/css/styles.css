@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+
+.img-wrapper {
+    width: 45%;
+    margin: 0 auto;
+    padding: 1em;
+    float: left;
+  }
+
+section.two_column {
+    float: right;
+    width: 60%;
+    padding: 1em;
+}
+
+.second {
+  padding: 3px;
+}
+
+.clearfixafter {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+
+section {
+    padding: 20px;
+    width: 100%;
+}
+
+header {
+    padding: 20px;
+    width: 100%;
+}
+
+nav {
+  text-align: center;
+  margin: auto;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  width: 100%;
+}
+
+a:hover {
+  background-color: #cccccc;
+  color: rgb(57,61,64);
+}
+
+a {
+  text-decoration: none;
+  float: left;
+  padding: 20px;
+  width: 316px;
+  color: #fff;
+}
+
+hr {
+  width: 100%;
+  color: rgb(15,10,15);
+}
+
+
+body {
+  background-image: url('https://static.pexels.com/photos/1388/cup-hand-mug-potatoes.jpg');
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/*Code to centre align the text text-align: center;*/
+
+body {
+  line-height: 1.3;
+  color: rgb(95,102,107);
+  font-family: 'Lato', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    letter-spacing: .2em;
+    font-size: 88px;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-top: -0.5%
+    color: rgb(57,61,64);
+    float: left;
+    width: 100%;
+}
+
+
+h2 {
+  text-align: center;
+  line-height: 19;
+  font-size: 2em;
+  color: #fff;
+  font-weight: 200;
+  font-family: 'Cutive Mono', sans-serif;
+  margin-top: 388px;
+}
+
+
+h3 {
+  font-size: 2em;
+  font-family: 'Cutive Mono', sans-serif;
+  color: rgb(57,61,64);
+}
+
+
+h3, h4, h5 {
+  margin: 20px 0;
+}
+
+
+p {
+  font-size: 1.25em;
+  font-style: 'Lato', sans-serif;
+  color: rgb(57,61,64);
+  margin-top: 0em;
+}
+
+
+footer {
+  background-color: #cccccc;
+  padding: 20px;
+  text-align: center;
+}
