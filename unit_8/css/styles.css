@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+main {
+  max-width: 70em;
+  margin:auto;
+  text-align: left;
+}
+
+.img-wrapper {
+    width: 50%;
+    padding: 0 1em 1em 0;
+    float: left;
+  }
+
+img {
+    width: 75%;
+    padding: 0 1em 1em 0;
+    float: left;
+  }
+
+section.two_column {
+  padding: 4em 0;
+}
+
+.second {
+  padding: 0.25em;
+}
+
+.clearfix:after, .two_column:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+section {
+    padding: 1.5em;
+}
+
+header {
+    padding: 2em;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+nav {
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 0.25em;
+  line-height: 1.5em;
+  width: 100%;
+}
+
+a:hover {
+  background-color: #cccccc;
+  color: rgb(57,61,64);
+}
+
+a {
+  text-decoration: none;
+  padding: 1.25em;
+  color: #fff;
+  display: inline-block;
+  margin: 0 2em;
+}
+
+hr {
+  width: 100%;
+  color: rgb(15,10,15);
+}
+
+
+#cover {
+  background-image: url(../images/cup-hand-mug-potatoes.jpg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 31em 0;
+}
+
+
+/*Code to centre align the text text-align: center;*/
+
+body {
+  line-height: 1.3;
+  color: rgb(95,102,107);
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+}
+
+
+h1 {
+    letter-spacing: .2em;
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-top: -0.5%
+    color: rgb(57,61,64);
+    width: 100%;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  font-weight: 200;
+  font-family: 'Cutive Mono', sans-serif;
+}
+
+
+h3 {
+  font-size: 2em;
+  font-family: 'Cutive Mono', sans-serif;
+  color: rgb(57,61,64);
+}
+
+
+h3, h4, h5 {
+}
+
+
+p {
+  font-size: 1.25em;
+  font-style: 'Lato', sans-serif;
+  color: rgb(57,61,64);
+  margin-top: 1em;
+}
+
+
+footer {
+  background-color: #cccccc;
+  padding: 1.25em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .section.two-column {
+    float: none;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 13px
+  }
+  .img-wrapper {
+    width: 95%;
+  }
+  img .section.two-column {
+    display: none;
+  }
+}
+
+/*@media only screen and (min-width: 768px)*/
+/*@media only screen and (max-width: 768px)*/
+/*@media only screen and (min-width: 320px) and (max-width: 480px)*/
